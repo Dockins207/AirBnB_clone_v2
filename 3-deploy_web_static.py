@@ -11,8 +11,8 @@ from fabric.api import local, env, put, run
 from datetime import datetime
 from os.path import exists, isdir
 
-env.hosts = ['100.25.177.91', '54.173.165.82']
 
+env.hosts = ['100.25.177.91', '54.173.165.82']
 
 def do_pack():
     """generates a tgz archive"""
